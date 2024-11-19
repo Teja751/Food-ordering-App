@@ -1,0 +1,73 @@
+/* RestaurantList.css */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .header {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .login-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .filter-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .filter-label {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .filter-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .restaurant-card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .restaurant-card-container p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1rem;
+  }
+  
+  .restaurant-card-container a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .restaurant-card-container a:hover {
+    text-decoration: underline;
+  }
+  
